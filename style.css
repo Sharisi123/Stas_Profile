@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  background-color: rgb(42, 37, 37);
+  font-size: 20px;
+  align-items: center;
+}
+header ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0 50px;
+}
+header ul li {
+  margin-left: 20px;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+a:hover {
+  color: rgb(189, 189, 189);
+}
+
+/* Блок после хедера */
+
+.about {
+  background-image: url('https://static.euronews.com/articles/stories/04/98/38/36/1440x810_cmsv2_668e70fc-f661-569c-8276-1bc0b6523b82-4983836.jpg');
+  width: calc(100vw - 17px);
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+}
+
+.about .intro {
+  max-width: 600px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(42, 37, 37);
+  border-radius: 0 20px 5px 0;
+}
+
+.about h1 {
+  margin: 0 0 0 20px;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  z-index: 3;
+}
+
+.about p {
+  margin: 0 0 0 20px;
+  z-index: 3;
+  color: #fff;
+  font-size: 20px;
+}
+
+/* Блок: картинка - текст */
+
+.info {
+  width: 100%;
+}
+.about-me {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.about-me img {
+  width: 600px;
+}
+.about-me p {
+  margin-top: 30px;
+  max-width: 500px;
+  text-align: center;
+}
+.about-me .text1 {
+  padding-right: 100px;
+}
+.about-me .text2 {
+  padding-left: 100px;
+}
+
+footer {
+  margin-top: 100px;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(42, 37, 37);
+  color: #fff;
+}
+.footer-info {
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.footer-info a {
+  color: rgb(177, 138, 31);
+  margin-left: 10px;
+}
+.footer-info a:hover {
+  color: rgba(177, 138, 31, 0.609);
+}
